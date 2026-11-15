@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="Portofolio personal Lilis Devi Maemunah — DevyMae. Teknologi, kreativitas, edukasi, dan karya digital.">
+  <title>DevyMae — 3D Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="devy-portfolio">
+ <div class="dp-wrap">
+  <header class="dp-nav">
+   <a class="dp-brand" href="#dp-home">DEVYMAE<span>.</span></a>
+   <nav class="dp-menu" aria-label="Navigasi portofolio">
+    <a href="#dp-about">Profil</a><a href="#dp-skills">Keahlian</a><a href="#dp-work">Karya</a><a href="#dp-journey">Perjalanan</a><a href="#dp-contact">Kontak</a>
+   </nav>
+  </header>
+
+  <main>
+   <section class="dp-hero" id="dp-home">
+    <div>
+     <div class="dp-kicker">PORTOFOLIO · LILIS DEVI MAEMUNAH</div>
+     <h1>Teknologi, Data &<br><em>Kreativitas Digital.</em></h1>
+     <p class="dp-lead">Halo, saya <strong>Lilis Devi Maemunah</strong> (dengan nama pena: <strong>DevyMae</strong>) — mahasiswa Teknik Informatika dan kreator digital yang tertarik pada persimpangan teknologi, edukasi, desain, dan komunikasi. Saya senang mengubah gagasan menjadi karya yang informatif, menarik, dan bermanfaat.</p>
+     <div class="dp-cta">
+      <a class="dp-btn dp-btn-main" href="#dp-work">Lihat karya saya ↘</a>
+      <a class="dp-btn dp-btn-line" href="#dp-contact">Hubungi saya ↗</a>
+     </div>
+    </div>
+    <div class="dp-photo-frame" data-tilt="16">
+     <div id="dp-three-scene" aria-label="Objek 3D dekoratif portofolio"></div>
+     <div class="dp-cube" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+     <div class="dp-cube dp-cube-sm" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+     <div class="dp-avatar-display" role="img" aria-label="Video Lilis Devi Maemunah sedang berjalan">
+      <img class="dp-avatar-still" src="assets/images/avatar-devymae.png" alt="">
+      <video id="dp-avatar-video" preload="metadata" muted loop playsinline aria-hidden="true">
+       <source src="assets/images/avatar-devymae-walk.mp4" type="video/mp4">
+      </video>
+      <canvas id="dp-avatar-canvas" aria-hidden="true" hidden></canvas>
+     </div>
+     <div class="dp-photo-note">Curious mind · Creative practice · Continuous growth</div>
+    </div>
+   </section>
+
+   <section class="dp-section" id="dp-about">
+    <div class="dp-kicker">01 / About</div>
+    <h2 class="dp-heading">Mengenal saya lebih dekat.</h2>
+    <p class="dp-copy">Dengan latar belakang Teknik Informatika, saya mengembangkan minat pada analisis data, pengembangan media pembelajaran, desain visual, penulisan, dan strategi konten digital. Saya menikmati proses belajar lintas bidang, bekerja secara terstruktur, serta menyampaikan ide dengan pendekatan yang sederhana dan berorientasi pada pengguna.</p>
+   </section>
+
+   <section class="dp-section" id="dp-skills">
+    <div class="dp-kicker">02 / Areas of interest</div>
+    <h2 class="dp-heading">Bidang yang saya tekuni.</h2>
+    <div class="dp-grid">
+     <article tabindex="0" data-tilt="12" class="dp-card"><div class="dp-num">01 — TECHNOLOGY & DATA</div><h3>Technology & Data Analytics</h3><p>Eksplorasi pemrograman, pengolahan data, logika komputasi, dan pemanfaatan teknologi untuk memahami serta menyelesaikan masalah.</p><div class="dp-tags"><span class="dp-tag">Python</span><span class="dp-tag">Google Colab</span><span class="dp-tag">Data Analysis</span></div></article>
+     <article tabindex="0" data-tilt="12" class="dp-card"><div class="dp-num">02 — EDUCATION</div><h3>Creative Learning</h3><p>Pengembangan gagasan media belajar yang komunikatif, visual, dan menyenangkan untuk mendukung pengalaman belajar.</p><div class="dp-tags"><span class="dp-tag">Canva</span><span class="dp-tag">Google Sites</span><span class="dp-tag">Learning Media</span></div></article>
+     <article tabindex="0" data-tilt="12" class="dp-card"><div class="dp-num">03 — COMMUNICATION</div><h3>Design & Content</h3><p>Pembuatan materi visual, penyuntingan video, copywriting, penulisan, dan storytelling untuk menyampaikan pesan secara efektif.</p><div class="dp-tags"><span class="dp-tag">Visual Design</span><span class="dp-tag">Video Editing</span><span class="dp-tag">Writing</span></div></article>
+     <article tabindex="0" data-tilt="12" class="dp-card"><div class="dp-num">04 — DIGITAL BUSINESS</div><h3>Digital Marketing</h3><p>Eksplorasi strategi konten, komunikasi produk, dan evaluasi performa marketplace untuk mendukung kebutuhan bisnis digital dan UMKM.</p><div class="dp-tags"><span class="dp-tag">Marketplace</span><span class="dp-tag">Content Strategy</span><span class="dp-tag">UMKM</span></div></article>
+    </div>
+   </section>
+
+   <section class="dp-section" id="dp-work">
+    <div class="dp-kicker">03 / Selected work</div>
+    <h2 class="dp-heading">Proyek & eksplorasi.</h2>
+    <p class="dp-copy">Beberapa proyek yang merepresentasikan minat saya.</p>
+    <div class="dp-grid">
+     <article tabindex="0" data-tilt="12" class="dp-card dp-project"><div class="dp-num">EDTECH / LEARNING MEDIA</div><h3>Petualangan Robo Algo</h3><p>Konsep media pembelajaran interaktif untuk memperkenalkan logika dan algoritma kepada anak melalui aktivitas visual yang menyenangkan.</p><div class="dp-tags"><span class="dp-tag">Canva AI</span><span class="dp-tag">Google Sites</span><span class="dp-tag">EdTech</span></div></article>
+     <article tabindex="0" data-tilt="12" class="dp-card dp-project"><div class="dp-num">DATA / MARKETPLACE</div><h3>UMKM Performance Insight</h3><p>Eksplorasi analisis performa toko online Putri Aurora Collection di TikTok Shop dan Shopee untuk mengidentifikasi peluang optimasi berbasis data.</p><div class="dp-tags"><span class="dp-tag">Python</span><span class="dp-tag">Data Analysis</span><span class="dp-tag">Marketplace</span></div></article>
+     <article tabindex="0" data-tilt="12" class="dp-card dp-project"><div class="dp-num">WEB / CREATIVE CODING</div><h3>AURORA Music Player</h3><p>Eksperimen rancangan antarmuka pemutar musik bertema cosmic aurora dengan eksplorasi visual dan teknologi audio berbasis web.</p><div class="dp-tags"><span class="dp-tag">HTML</span><span class="dp-tag">CSS</span><span class="dp-tag">JavaScript</span></div></article>
+     <article tabindex="0" data-tilt="12" class="dp-card dp-project"><div class="dp-num">AI / TIKTOK INTEGRATION</div><h3>AI Host Assistant</h3><p>Pengembangan asisten host berbasis AI yang terhubung secara otomatis dengan TikTok. Proyek ini mengeksplorasi integrasi kecerdasan buatan dengan platform media sosial untuk mendukung pengalaman host dan interaksi digital.</p><div class="dp-tags"><span class="dp-tag">Artificial Intelligence</span><span class="dp-tag">TikTok Integration</span><span class="dp-tag">Automation</span></div></article>
+     <article tabindex="0" data-tilt="12" class="dp-card dp-project"><div class="dp-num">CREATIVE / COMMUNICATION</div><h3>Digital Creativity</h3><p>Kumpulan eksplorasi penulisan, desain promosi, materi kreatif, dan konten digital yang menggabungkan komunikasi visual dengan storytelling.</p><div class="dp-tags"><span class="dp-tag">Copywriting</span><span class="dp-tag">Design</span><span class="dp-tag">Content</span></div></article>
+    </div>
+   </section>
+
+   <section class="dp-section" id="dp-journey">
+    <div class="dp-kicker">04 / Journey</div>
+    <h2 class="dp-heading">Perjalanan belajar & berkarya.</h2>
+    <div class="dp-timeline">
+     <div tabindex="0" data-tilt="6" class="dp-step"><small>2022 — SEKARANG</small><h3>Teknik Informatika</h3><p>Universitas Mayasari Bakti Tasikmalaya.</p></div>
+     <div tabindex="0" data-tilt="6" class="dp-step"><small>2021 — SEKARANG</small><h3>Digital Creativity & Learning</h3><p>Eksplorasi desain, konten digital, dan pengembangan materi kreatif.</p></div>
+     <div tabindex="0" data-tilt="6" class="dp-step"><small>2020 — SEKARANG</small><h3>Writing & Community</h3><p>Penulisan, pendampingan komunitas penulis online, dan pengelolaan platform. Menghasilkan beberapa karya tulis berupa buku novel solo:</p><ol class="dp-books"><li><em>Masih Ada Mimpi</em> (2021), diterbitkan oleh Lintang Semesta Publisher.</li><li><em>Cinta di Antara Cahaya Bintang</em> (2021), diterbitkan oleh Lintang Semesta Publisher.</li><li><em>Armada Rasa</em> (2022), diterbitkan oleh Permata Nusantara.</li><li>Beberapa antologi yang telah terbit dan dibukukan antara rentang tahun 2020–2025.</li></ol></div>
+     <div tabindex="0" data-tilt="6" class="dp-step"><small>PENGALAMAN SEBELUMNYA</small><h3>Marketing & Creative Business</h3><p>Pengalaman pemasaran dan usaha kreatif yang mengembangkan kemampuan komunikasi serta orientasi pada pelanggan.</p></div>
+    </div>
+   </section>
+
+   <section class="dp-section" id="dp-contact">
+    <div class="dp-contact" data-tilt="6">
+     <div class="dp-kicker">05 / Let's connect</div>
+     <h2 class="dp-heading">Mari mulai percakapan.</h2>
+     <p class="dp-copy">Terbuka untuk kolaborasi, proyek kreatif, kesempatan profesional, serta diskusi seputar teknologi, edukasi, desain, dan konten digital.</p>
+     <div class="dp-cta" style="justify-content:center">
+      <a class="dp-btn dp-btn-line" href="mailto:devimay114@gmail.com" aria-label="Email devimay114@gmail.com">Email · devimay114@gmail.com ↗</a>
+      <a class="dp-btn dp-btn-main" href="https://www.linkedin.com/in/lilis-devi-maemunah-devymae" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Lilis Devi Maemunah">LinkedIn ↗</a>
+      <a class="dp-btn dp-btn-line" href="https://www.instagram.com/devymae_art/" target="_blank" rel="noopener noreferrer" aria-label="Instagram @devymae_art">Instagram · @devymae_art ↗</a>
+      <a class="dp-btn dp-btn-line" href="https://www.tiktok.com/@devymae_art?is_from_webapp=1&amp;sender_device=pc" target="_blank" rel="noopener noreferrer" aria-label="TikTok @devymae_art">TikTok · @devymae_art ↗</a>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="dp-footer">© 2026 Lilis Devi Maemunah · Personal Portfolio</footer>
+ </div>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r152/three.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
