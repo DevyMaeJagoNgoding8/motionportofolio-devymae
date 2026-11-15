@@ -10,10 +10,10 @@ Jika `index.html` dibuka langsung, browser tertentu dapat membatasi pemrosesan v
 
 ## Struktur
 - `index.html` — struktur halaman dan konten portofolio.
-- `css/style.css` — seluruh gaya visual navy futuristik.
-- `js/script.js` — interaksi, tilt, scroll reveal, dan dekorasi Three.js.
-- `assets/images/avatar-devymae.png` — gambar karakter 3D sementara.
-- `assets/images/avatar-devymae-walk.mp4` — video avatar berjalan.
+- `style.css` — seluruh gaya visual navy futuristik.
+- `script.js` — interaksi, tilt, scroll reveal, dan dekorasi Three.js.
+- `avatar-devymae.png` — gambar karakter 3D sementara.
+- `avatar-devymae-walk.mp4` — video avatar berjalan.
 - `assets/models/` — tempat model 3D `.glb` jika nanti ditambahkan.
 
 ## Catatan penting
